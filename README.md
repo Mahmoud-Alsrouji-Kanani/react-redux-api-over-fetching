@@ -1,1 +1,1 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The downside to using _.memoize in here is that we can call the fetchUser action creator only one time with each unique user id and that effectively means that we can fetch each user one time inside of our application (we might want to fetch a user again if his data has changed in the backend for example)
